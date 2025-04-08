@@ -14,7 +14,7 @@ const HomeScreen = () => {
 
       <View style={styles.imageContainer}>
         <Image
-          source={require('./assets/bowler.png')}
+          source={require('../assets/bowler.png')}
           style={styles.image}
           resizeMode="contain"
         />
@@ -35,21 +35,21 @@ const styles = StyleSheet.create({
     backgroundColor: '#0f111d',
     alignItems: 'center',
     justifyContent: 'space-between',
-    paddingVertical: 30,
+    paddingVertical: 20,
   },
   header: {
     color: '#ffffff',
     fontSize: 22,
     fontWeight: 'bold',
-    marginTop: 10,
+    marginTop: 15,
   },
   navBar: {
     flexDirection: 'row',
     justifyContent: 'space-around',
-    width: '100%',
+    width: '105%',
     backgroundColor: '#1a1c2c',
     paddingVertical: 10,
-    marginVertical: 10,
+    marginVertical: 5,
   },
   navText: {
     color: '#ffffff',
@@ -58,11 +58,11 @@ const styles = StyleSheet.create({
   },
   imageContainer: {
     alignItems: 'center',
-    paddingHorizontal: 20,
+    paddingHorizontal: 40,
   },
   image: {
-    width: 250,
-    height: 250,
+    width: 400,
+    height: 500,
     marginBottom: 10,
   },
   caption: {
